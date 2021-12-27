@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InChat</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="client.css">
+    <script defer src="http://95eb-2409-4071-d13-4d11-998d-8e4d-3cff-93bc.ngrok.io/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h1 id="title">Welcome to <span id="logo-text">InChat</span></h1>
+        <h3 id="username"></h3>
+    </div>
+    <h2 id="online"></h2>
+    <form id="chat-form">
+        <div class="chat-area">
+            
+            
+        </div>
+        <div class="input-area">
+            <input type="text" id="input-text" placeholder="Type your message here..." autocomplete="off">
+            <button id="send-button" type="submit">Send</button>
+        </div>
+    </form>
+</body>
+
+</html>
